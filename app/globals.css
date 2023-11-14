@@ -9,4 +9,15 @@
   .border-primary {
     border-color: rgba(255, 255, 255, 0.1);
   }
+  .bg-card-music {
+    background-color: #2a2a2a;
+  }
+  .control-btn:hover {
+    fill: #6ee7b7 !important;
+  }
+
+  [data-repeat="true"] > .control-btn,
+  [data-shuffle="true"] > .control-btn {
+    fill: #6ee7b7 !important;
+  }
 }
